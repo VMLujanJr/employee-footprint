@@ -89,9 +89,10 @@ THEN I am prompted to select an employee to update and their new role and this i
 | 1 | Markdown |
 | 2 | JavaScript |
 | 3 | Node.js |
-| 4 | MySQL2 package |
-| 5 | Inquirer package |
+| 4 | mysql2 package |
+| 5 | inquirer package |
 | 6 | console.table package |
+| 7 | dotenv package |
 
 ## Installation
 

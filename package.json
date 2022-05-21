@@ -8,5 +8,20 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VMLujanJr/employee-footprint.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/VMLujanJr/employee-footprint/issues"
+  },
+  "homepage": "https://github.com/VMLujanJr/employee-footprint#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
 }
