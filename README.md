@@ -81,7 +81,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Mock-up
 
-![mockup](./public/assets/images/mock-up.gif)
+![mockup](./public/assets/images/schema-db.png)
 
 ## Technologies
 | ID # | Technologies |
@@ -90,9 +90,10 @@ THEN I am prompted to select an employee to update and their new role and this i
 | 2 | JavaScript |
 | 3 | Node.js |
 | 4 | mysql2 package |
-| 5 | inquirer package |
-| 6 | console.table package |
-| 7 | dotenv package |
+| 6 | sequelize |
+| 7 | inquirer package |
+| 8 | console.table package |
+| 9 | dotenv package |
 
 ## Installation
 
