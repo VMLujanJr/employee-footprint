@@ -1,6 +1,15 @@
 const inquirer = require('inquirer');
+const {
+    viewDepartments,
+    viewRoles,
+    viewEmployees,
+    addDepartment, 
+    addRole, 
+    addEmployee,
+    updateEmployeeRole
+} = require('./util/funct.js');
 
-const promptManagementOptions = () => {
+const promptOptions = () => {
     console.log(`
 ==================
 Management Options
@@ -15,29 +24,38 @@ Management Options
                     'View All Departments',
                     'View All Roles',
                     'View All Employees',
-                    new inquirer.Separator(),
                     'Add a Department',
                     'Add a Role',
                     'Add an Employee',
                     'Update an Employee Role'
-                ],
-                validate: selectionInput => {
-                    if (selectionInput === 'View All Departments') {
-                        console.table(`SELECT * FROM departments`);
-                    }
-                    if (selectionInput === 'View All Roles') {
-                        console.table(`SELECT * FROM roles`)
-                    }
-                    if (selectionInput === 'View All Employees') {
-                        console.table(`SELECT * FROM employees`);
-                    }
-                }
+                ]
             }
         ])
         .then(selectionInput => {
-            console.log(selectionInput);
-            return selectionInput;
+            switch(selectionInput.managementOptions) {
+                case 'View All Departments':
+                    viewDepartments();
+                    break;
+                case 'View All Roles':
+                    viewRoles();
+                    break;
+                case 'View All Employees':
+                    viewEmployees();
+                    break;
+                case 'Add a Department':
+                    addDepartment();
+                    break;
+                case 'Add a Role':
+                    addRole();
+                    break;
+                case 'Add an Employee':
+                    addEmployee();
+                    break;
+                case 'Update an Employee Role':
+                    updateEmployeeRole();
+                    break;
+            }
         });
 };
 
-promptManagementOptions()
+promptOptions();
