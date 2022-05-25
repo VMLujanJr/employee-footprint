@@ -10,7 +10,6 @@ const db = mysql.createConnection(
         database: process.env.DB_NAME
     },
     console.log('Connected to the employee footprint database❗')
-    
 );
 
 module.exports = db;
