@@ -7,7 +7,7 @@ Welcome to the Employee Footprint project!
 
 An application that manages a company's employee database.
 
-You may visit the deployed [website](https://shielded-shelf-02439.herokuapp.com/) to try it out for yourself!
+You may visit the deployed [video](https://drive.google.com/file/d/1ZirKzdH9azoJd2dZfYkgOCVrLm2-JohA/view) to see it for yourself!
 
 ## Table of Contents
 
