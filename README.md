@@ -69,7 +69,7 @@ THEN I am prompted to enter the name of the department and that department is ad
 THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
 ~~~
 
-- [ ] WHEN I choose to add an employee
+- [x] WHEN I choose to add an employee
 ~~~
 THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 ~~~
@@ -81,7 +81,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Mock-up
 
-![mockup](./public/assets/images/schema-db.png)
+![mockup](./public/assets/images/mock-up.gif)
 
 ## Technologies
 | ID # | Technologies |
